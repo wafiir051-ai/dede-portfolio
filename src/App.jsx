@@ -24,6 +24,7 @@ export default function App() {
       <footer className="foot">
         <span>© {new Date().getFullYear()} Dede Kismantoro. Seluruh karya milik pembuatnya.</span>
         <a href="#top">Ke atas ↑</a>
+        <p className="credit">Website dibuat oleh <a href="https://godingofficial.com" target="_blank" rel="noopener">godingofficial.com</a></p>
       </footer>
       <Lightbox />
     </>

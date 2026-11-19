@@ -248,6 +248,9 @@ main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; padding-
 @media (max-width: 1000px) { .brief-wrap { grid-template-columns: 1fr; } }
 @media (max-width: 640px) { .plate { grid-template-columns: 1fr; } .plate-list { border-right: 0; border-bottom: 1.5px solid var(--line); min-height: 0; } }
 
+.credit { flex-basis: 100%; margin: 0; padding-top: 14px; border-top: 1.5px dashed var(--line); text-align: center; font-weight: 600; }
+.credit a { color: var(--blue); text-decoration-thickness: 2px; }
+.credit a:hover { color: var(--blue-2); }
 .foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 28px 0 90px; color: var(--ink-2); font-size: 14px; }
 
 /* ---------- Lightbox ---------- */
